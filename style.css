@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+.head{
+    display: flex;
+    background-color: black;
+}
+.left,.right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+}
+.spotify-logo{
+    height: 45px;
+    padding-left: 180px;
+}
+.navigation{
+    padding-left: 20px;
+}
+a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+.body-one{
+    display: flex;
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+.img-one{
+    height: 640px;
+    padding-left: 260px;
+    padding-top: 130px;
+}
+.right-one{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: -2.56px;
+    max-width: 653px;
+    padding-left: 90px;
+    padding-top: 200px;
+}
+.right-one-top,.right-one-bot{
+    flex: 1;
+}
+.button-one{
+    background-color: #fff;
+    color: black;
+    height: 50px;
+    width: 185px;
+    border-radius: 50px;
+    border: 0;
+}
+.body-two{
+    padding: 75px;
+    background: var(--background-base,inherit);
+    height: 500px;
+}
+.h1-two{
+    text-align: center;
+    line-height: 1.5;
+    font-size: var(--headline-font-size,40px);
+    font-weight: 900;
+    letter-spacing: -0.015em;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+.ul-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    height: 470px;
+}
+.li-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    padding: 5px;
+    
+}
+.icon-two{
+    font-size: 130px;
+    padding: 15px;
+}
+
+.para-head-two{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding: 0px;
+    line-height: 1.3em;
+}
+.body-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.body-four{
+    height: auto;
+    padding: 80px;
+}
+.ul-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.sum-four{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 26px 28px;
+    margin-top: 2px;
+    position: relative;
+    list-style: none;
+    outline: none;
+    background-color: rgb(247, 239, 239);
+}
+.para-four{
+    padding: 15px 32px 32px;
+    margin: 0px;
+}
+.body-five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+.h1-five{
+    font-size: 80px;
+    color: #fff;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: #919496;
+    background-color: black;
+}
+.foot-one{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-spotify-logo{
+    height: 45px;
+}
+table{
+    text-align: left;
+    width: 450px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.foot-tab-td{
+    color: #fff;
+    height: 50px;
+    vertical-align: bottom;
+}
+.foot-ul{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    list-style-type: none;
+}
+.foot-li{
+    font-size: 35px;
+}
+.foot-two{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 50px;
+}
+.foot-ul-two{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 500px;
+    font-size: 12px;
+}
+.foot-two-right{
+    text-align: end;
+    width: 600px;
+    font-size: 12px;
+}
